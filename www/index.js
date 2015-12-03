@@ -60,7 +60,7 @@ function updateFreq(freq) {
 
 	
 accelerometerOptions.frequency = freq;
-function startSensor();
+startSensor();
 
 
 }
