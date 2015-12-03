@@ -16,7 +16,7 @@
     <author href="http://www.worcester.ac.uk/discover/chris-bowers.html" email="c.bowers@worc.ac.uk">
         Chris P. Bowers
     </author>
-	
+	<platform name="android" />
 	<gap:plugin name="org.apache.cordova.device-motion" />
 
 </widget>
