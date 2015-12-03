@@ -58,9 +58,11 @@ function accelerometerError() {
 function updateFreq(freq) {
 	//do something to update freq. here.
 
-	if ($('value').val(freq) > 5000) accelerometerOptions.frequency = 5000
-	else accelerometerOptions.frequency = 1000;
 	
+accelerometerOptions.frequency = freq;
+function startSensor();
+
+
 }
 
 
